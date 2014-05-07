@@ -24,14 +24,8 @@ show(testArray);
 //an object to one of its methods without naming the 
 //object twice?
 
-function bind(func, obj){
+function method(obj,func){
 	return function(){
-		return func.apply(obj,arguments);
-	}
-}
-
-function method(func, obj){
-	return function(){
-		return obj[func].apply(obj, arguments);
-	}
+		return obj[func].apply(obj,arguments);
+	};
 }

@@ -1,1 +1,1 @@
-These are my practice problems from "Eloquent JavaScript" (http://eloquentjavascript.net/contents.html) by Marijn Haverbeke. My intent is to become much more adept at JavaScript.
+These are my practice problems from "Eloquent JavaScript" (http://eloquentjavascript.net/contents.html) by Marijn Haverbeke. My goal is to improve my knowedge and usage of JavaScript.

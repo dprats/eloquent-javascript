@@ -113,6 +113,7 @@ function characterFromElement(element) {
 function StupidBug() {};
 
 
+
 //SOLUTION
 
 //Add a method toString to the Terrarium prototype, 
