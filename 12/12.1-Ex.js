@@ -9,19 +9,6 @@
 
 // Hint: Recursion!
 
-function asHTML(node, str){
-
-	//if we are at a node which is text, return the text
-	if (node.nodeType ==3){
-		return str += node.nodeValue;
-	}
-	//get possibe strings from child nodes
-	for (var child in node.childNodes){
-		return str+= asHTML(child);
-	}
-
-}
-
 function asHTML(node){
 
 	if (isTextNode(node)){
